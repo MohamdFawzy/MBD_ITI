@@ -17,6 +17,6 @@ plot(x,y3)
 title('Subplot 1: tan(x)')
 %% plot 4
 subplot(2,2,4)
-y4= exp(-x);
+y4= cotd(x);
 plot(x,y4)
-title('Subplot 1: e(-x)')
+title('Subplot 1: cotan(x)')
