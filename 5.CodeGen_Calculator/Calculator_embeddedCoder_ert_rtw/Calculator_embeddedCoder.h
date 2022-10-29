@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'Calculator_embeddedCoder'.
  *
- * Model version                  : 1.0
+ * Model version                  : 1.6
  * Simulink Coder version         : 8.10 (R2016a) 10-Feb-2016
- * C/C++ source code generated on : Sat Oct 29 00:24:02 2022
+ * C/C++ source code generated on : Sat Oct 29 22:10:10 2022
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -41,6 +41,11 @@ typedef struct {
   uint16_T Out3;                       /* '<Root>/Out3' */
   uint16_T Out4;                       /* '<Root>/Out4' */
   uint8_T Out5;                        /* '<Root>/Out5' */
+  uint8_T Out6;                        /* '<Root>/Out6' */
+  uint8_T Out7;                        /* '<Root>/Out7' */
+  uint8_T Out8;                        /* '<Root>/Out8' */
+  uint8_T Out9;                        /* '<Root>/Out9' */
+  uint8_T Out10;                       /* '<Root>/Out10' */
 } ExtY_Calculator_embeddedCoder_T;
 
 /* External inputs (root inport signals with auto storage) */

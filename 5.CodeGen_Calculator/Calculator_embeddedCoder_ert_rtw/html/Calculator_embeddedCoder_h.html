@@ -21,11 +21,11 @@
 <tr name="5" id="5">
 <td>5</td><td><span class="ct"> *</span></td></tr>
 <tr name="6" id="6">
-<td>6</td><td><span class="ct"> * Model version                  : 1.0</span></td></tr>
+<td>6</td><td><span class="ct"> * Model version                  : 1.6</span></td></tr>
 <tr name="7" id="7">
 <td>7</td><td><span class="ct"> * Simulink Coder version         : 8.10 (R2016a) 10-Feb-2016</span></td></tr>
 <tr name="8" id="8">
-<td>8</td><td><span class="ct"> * C/C++ source code generated on : Sat Oct 29 00:24:02 2022</span></td></tr>
+<td>8</td><td><span class="ct"> * C/C++ source code generated on : Sat Oct 29 22:10:10 2022</span></td></tr>
 <tr name="9" id="9">
 <td>9</td><td><span class="ct"> *</span></td></tr>
 <tr name="10" id="10">
@@ -97,79 +97,89 @@
 <tr name="43" id="43">
 <td>43</td><td>  <a id="43c3" class="tk">uint8_T</a> <a id="43c11" class="tk">Out5</a>;                        <span class="ct">/* '<a class="ct blk" blk_line="43">&lt;Root&gt;/Out5</a>' */</span></td></tr>
 <tr name="44" id="44">
-<td>44</td><td><span class="br">}</span> <a id="44c3" class="tk">ExtY_Calculator_embeddedCoder_T</a>;</td></tr>
+<td>44</td><td>  <a id="44c3" class="tk">uint8_T</a> <a id="44c11" class="tk">Out6</a>;                        <span class="ct">/* '<a class="ct blk" blk_line="44">&lt;Root&gt;/Out6</a>' */</span></td></tr>
 <tr name="45" id="45">
-<td>45</td><td></td></tr>
+<td>45</td><td>  <a id="45c3" class="tk">uint8_T</a> <a id="45c11" class="tk">Out7</a>;                        <span class="ct">/* '<a class="ct blk" blk_line="45">&lt;Root&gt;/Out7</a>' */</span></td></tr>
 <tr name="46" id="46">
-<td>46</td><td><span class="ct">/* External inputs (root inport signals with auto storage) */</span></td></tr>
+<td>46</td><td>  <a id="46c3" class="tk">uint8_T</a> <a id="46c11" class="tk">Out8</a>;                        <span class="ct">/* '<a class="ct blk" blk_line="46">&lt;Root&gt;/Out8</a>' */</span></td></tr>
 <tr name="47" id="47">
-<td>47</td><td><span class="kw">extern</span> <a id="47c8" class="tk">ExtU_Calculator_embeddedCoder_T</a> <a id="47c40" class="tk">Calculator_embeddedCoder_U</a>;</td></tr>
+<td>47</td><td>  <a id="47c3" class="tk">uint8_T</a> <a id="47c11" class="tk">Out9</a>;                        <span class="ct">/* '<a class="ct blk" blk_line="47">&lt;Root&gt;/Out9</a>' */</span></td></tr>
 <tr name="48" id="48">
-<td>48</td><td></td></tr>
+<td>48</td><td>  <a id="48c3" class="tk">uint8_T</a> <a id="48c11" class="tk">Out10</a>;                       <span class="ct">/* '<a class="ct blk" blk_line="48">&lt;Root&gt;/Out10</a>' */</span></td></tr>
 <tr name="49" id="49">
-<td>49</td><td><span class="ct">/* External outputs (root outports fed by signals with auto storage) */</span></td></tr>
+<td>49</td><td><span class="br">}</span> <a id="49c3" class="tk">ExtY_Calculator_embeddedCoder_T</a>;</td></tr>
 <tr name="50" id="50">
-<td>50</td><td><span class="kw">extern</span> <a id="50c8" class="tk">ExtY_Calculator_embeddedCoder_T</a> <a id="50c40" class="tk">Calculator_embeddedCoder_Y</a>;</td></tr>
+<td>50</td><td></td></tr>
 <tr name="51" id="51">
-<td>51</td><td></td></tr>
+<td>51</td><td><span class="ct">/* External inputs (root inport signals with auto storage) */</span></td></tr>
 <tr name="52" id="52">
-<td>52</td><td><span class="ct">/* Model entry point functions */</span></td></tr>
+<td>52</td><td><span class="kw">extern</span> <a id="52c8" class="tk">ExtU_Calculator_embeddedCoder_T</a> <a id="52c40" class="tk">Calculator_embeddedCoder_U</a>;</td></tr>
 <tr name="53" id="53">
-<td>53</td><td><span class="kw">extern</span> <span class="kw">void</span> <a id="53c13" class="tk">Calculator_embeddedCoder_initialize</a>(<span class="kw">void</span>);</td></tr>
+<td>53</td><td></td></tr>
 <tr name="54" id="54">
-<td>54</td><td><span class="kw">extern</span> <span class="kw">void</span> <a id="54c13" class="tk">Calculator_embeddedCoder_step</a>(<span class="kw">void</span>);</td></tr>
+<td>54</td><td><span class="ct">/* External outputs (root outports fed by signals with auto storage) */</span></td></tr>
 <tr name="55" id="55">
-<td>55</td><td><span class="kw">extern</span> <span class="kw">void</span> <a id="55c13" class="tk">Calculator_embeddedCoder_terminate</a>(<span class="kw">void</span>);</td></tr>
+<td>55</td><td><span class="kw">extern</span> <a id="55c8" class="tk">ExtY_Calculator_embeddedCoder_T</a> <a id="55c40" class="tk">Calculator_embeddedCoder_Y</a>;</td></tr>
 <tr name="56" id="56">
 <td>56</td><td></td></tr>
 <tr name="57" id="57">
-<td>57</td><td><span class="ct">/*-</span></td></tr>
+<td>57</td><td><span class="ct">/* Model entry point functions */</span></td></tr>
 <tr name="58" id="58">
-<td>58</td><td><span class="ct"> * The generated code includes comments that allow you to trace directly</span></td></tr>
+<td>58</td><td><span class="kw">extern</span> <span class="kw">void</span> <a id="58c13" class="tk">Calculator_embeddedCoder_initialize</a>(<span class="kw">void</span>);</td></tr>
 <tr name="59" id="59">
-<td>59</td><td><span class="ct"> * back to the appropriate location in the model.  The basic format</span></td></tr>
+<td>59</td><td><span class="kw">extern</span> <span class="kw">void</span> <a id="59c13" class="tk">Calculator_embeddedCoder_step</a>(<span class="kw">void</span>);</td></tr>
 <tr name="60" id="60">
-<td>60</td><td><span class="ct"> * is &lt;system&gt;/block_name, where system is the system number (uniquely</span></td></tr>
+<td>60</td><td><span class="kw">extern</span> <span class="kw">void</span> <a id="60c13" class="tk">Calculator_embeddedCoder_terminate</a>(<span class="kw">void</span>);</td></tr>
 <tr name="61" id="61">
-<td>61</td><td><span class="ct"> * assigned by Simulink) and block_name is the name of the block.</span></td></tr>
+<td>61</td><td></td></tr>
 <tr name="62" id="62">
-<td>62</td><td><span class="ct"> *</span></td></tr>
+<td>62</td><td><span class="ct">/*-</span></td></tr>
 <tr name="63" id="63">
-<td>63</td><td><span class="ct"> * Use the MATLAB hilite_system command to trace the generated code back</span></td></tr>
+<td>63</td><td><span class="ct"> * The generated code includes comments that allow you to trace directly</span></td></tr>
 <tr name="64" id="64">
-<td>64</td><td><span class="ct"> * to the model.  For example,</span></td></tr>
+<td>64</td><td><span class="ct"> * back to the appropriate location in the model.  The basic format</span></td></tr>
 <tr name="65" id="65">
-<td>65</td><td><span class="ct"> *</span></td></tr>
+<td>65</td><td><span class="ct"> * is &lt;system&gt;/block_name, where system is the system number (uniquely</span></td></tr>
 <tr name="66" id="66">
-<td>66</td><td><span class="ct"> * hilite_system('<a class="ct blk" blk_line="66">&lt;S3&gt;</a>')    - opens system 3</span></td></tr>
+<td>66</td><td><span class="ct"> * assigned by Simulink) and block_name is the name of the block.</span></td></tr>
 <tr name="67" id="67">
-<td>67</td><td><span class="ct"> * hilite_system('<a class="ct blk" blk_line="67">&lt;S3&gt;/Kp</a>') - opens and selects block Kp which resides in S3</span></td></tr>
+<td>67</td><td><span class="ct"> *</span></td></tr>
 <tr name="68" id="68">
-<td>68</td><td><span class="ct"> *</span></td></tr>
+<td>68</td><td><span class="ct"> * Use the MATLAB hilite_system command to trace the generated code back</span></td></tr>
 <tr name="69" id="69">
-<td>69</td><td><span class="ct"> * Here is the system hierarchy for this model</span></td></tr>
+<td>69</td><td><span class="ct"> * to the model.  For example,</span></td></tr>
 <tr name="70" id="70">
 <td>70</td><td><span class="ct"> *</span></td></tr>
 <tr name="71" id="71">
-<td>71</td><td><span class="ct"> * '<a class="ct blk" blk_line="71">&lt;Root&gt;</a>' : 'Calculator_embeddedCoder'</span></td></tr>
+<td>71</td><td><span class="ct"> * hilite_system('<a class="ct blk" blk_line="71">&lt;S3&gt;</a>')    - opens system 3</span></td></tr>
 <tr name="72" id="72">
-<td>72</td><td><span class="ct"> */</span></td></tr>
+<td>72</td><td><span class="ct"> * hilite_system('<a class="ct blk" blk_line="72">&lt;S3&gt;/Kp</a>') - opens and selects block Kp which resides in S3</span></td></tr>
 <tr name="73" id="73">
-<td>73</td><td><span class="pp">#endif</span>                                 <span class="ct">/* RTW_HEADER_Calculator_embeddedCoder_h_ */</span></td></tr>
+<td>73</td><td><span class="ct"> *</span></td></tr>
 <tr name="74" id="74">
-<td>74</td><td></td></tr>
+<td>74</td><td><span class="ct"> * Here is the system hierarchy for this model</span></td></tr>
 <tr name="75" id="75">
-<td>75</td><td><span class="ct">/*</span></td></tr>
+<td>75</td><td><span class="ct"> *</span></td></tr>
 <tr name="76" id="76">
-<td>76</td><td><span class="ct"> * File trailer for generated code.</span></td></tr>
+<td>76</td><td><span class="ct"> * '<a class="ct blk" blk_line="76">&lt;Root&gt;</a>' : 'Calculator_embeddedCoder'</span></td></tr>
 <tr name="77" id="77">
-<td>77</td><td><span class="ct"> *</span></td></tr>
+<td>77</td><td><span class="ct"> */</span></td></tr>
 <tr name="78" id="78">
-<td>78</td><td><span class="ct"> * [EOF]</span></td></tr>
+<td>78</td><td><span class="pp">#endif</span>                                 <span class="ct">/* RTW_HEADER_Calculator_embeddedCoder_h_ */</span></td></tr>
 <tr name="79" id="79">
-<td>79</td><td><span class="ct"> */</span></td></tr>
+<td>79</td><td></td></tr>
 <tr name="80" id="80">
-<td>80</td><td></td></tr>
+<td>80</td><td><span class="ct">/*</span></td></tr>
+<tr name="81" id="81">
+<td>81</td><td><span class="ct"> * File trailer for generated code.</span></td></tr>
+<tr name="82" id="82">
+<td>82</td><td><span class="ct"> *</span></td></tr>
+<tr name="83" id="83">
+<td>83</td><td><span class="ct"> * [EOF]</span></td></tr>
+<tr name="84" id="84">
+<td>84</td><td><span class="ct"> */</span></td></tr>
+<tr name="85" id="85">
+<td>85</td><td></td></tr>
 </table>
 </pre>
 </body>

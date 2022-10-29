@@ -21,11 +21,11 @@
 <tr name="5" id="5">
 <td>5</td><td><span class="ct"> *</span></td></tr>
 <tr name="6" id="6">
-<td>6</td><td><span class="ct"> * Model version                  : 1.0</span></td></tr>
+<td>6</td><td><span class="ct"> * Model version                  : 1.6</span></td></tr>
 <tr name="7" id="7">
 <td>7</td><td><span class="ct"> * Simulink Coder version         : 8.10 (R2016a) 10-Feb-2016</span></td></tr>
 <tr name="8" id="8">
-<td>8</td><td><span class="ct"> * C/C++ source code generated on : Sat Oct 29 00:24:02 2022</span></td></tr>
+<td>8</td><td><span class="ct"> * C/C++ source code generated on : Sat Oct 29 22:10:10 2022</span></td></tr>
 <tr name="9" id="9">
 <td>9</td><td><span class="ct"> *</span></td></tr>
 <tr name="10" id="10">
@@ -151,61 +151,137 @@
 <tr name="70" id="70">
 <td>70</td><td>    <a id="70c5" class="tk">Calculator_embeddedCoder_U</a>.<a id="70c32" class="tk">In2</a>);</td></tr>
 <tr name="71" id="71">
-<td>71</td><td><span class="br">}</span></td></tr>
+<td>71</td><td></td></tr>
 <tr name="72" id="72">
-<td>72</td><td></td></tr>
+<td>72</td><td>  <span class="ct">/* Outport: '<a class="ct blk" blk_line="72">&lt;Root&gt;/Out6</a>' incorporates:</span></td></tr>
 <tr name="73" id="73">
-<td>73</td><td><span class="ct">/* Model initialize function */</span></td></tr>
+<td>73</td><td><span class="ct">   *  Inport: '<a class="ct blk" blk_line="73">&lt;Root&gt;/In1</a>'</span></td></tr>
 <tr name="74" id="74">
-<td>74</td><td><span class="kw">void</span> <a id="74c6" class="tk">Calculator_embeddedCoder_initialize</a>(<span class="kw">void</span>)</td></tr>
+<td>74</td><td><span class="ct">   *  Inport: '<a class="ct blk" blk_line="74">&lt;Root&gt;/In2</a>'</span></td></tr>
 <tr name="75" id="75">
-<td>75</td><td><span class="br">{</span></td></tr>
+<td>75</td><td><span class="ct">   *  S-Function (sfix_bitop): '<a class="ct blk" blk_line="75">&lt;Root&gt;/Bitwise Operator</a>'</span></td></tr>
 <tr name="76" id="76">
-<td>76</td><td>  <span class="ct">/* Registration code */</span></td></tr>
+<td>76</td><td><span class="ct">   */</span></td></tr>
 <tr name="77" id="77">
-<td>77</td><td></td></tr>
+<td>77</td><td>  <a id="77c3" class="tk">Calculator_embeddedCoder_Y</a>.<a id="77c30" class="tk">Out6</a> = (<a id="77c38" class="tk">uint8_T</a>)(<a id="77c47" class="tk">Calculator_embeddedCoder_U</a>.<a id="77c74" class="tk">In1</a> <a id="77c78" class="tk">&amp;</a></td></tr>
 <tr name="78" id="78">
-<td>78</td><td>  <span class="ct">/* external inputs */</span></td></tr>
+<td>78</td><td>    <a id="78c5" class="tk">Calculator_embeddedCoder_U</a>.<a id="78c32" class="tk">In2</a>);</td></tr>
 <tr name="79" id="79">
-<td>79</td><td>  (<span class="kw">void</span>) <a id="79c10" class="tk">memset</a>((<span class="kw">void</span> <a id="79c23" class="tk">*</a>)<a id="79c25" class="tk">&amp;</a><a id="79c26" class="tk">Calculator_embeddedCoder_U</a>, 0,</td></tr>
+<td>79</td><td></td></tr>
 <tr name="80" id="80">
-<td>80</td><td>                <span class="kw">sizeof</span>(<a id="80c24" class="tk">ExtU_Calculator_embeddedCoder_T</a>));</td></tr>
+<td>80</td><td>  <span class="ct">/* Outport: '<a class="ct blk" blk_line="80">&lt;Root&gt;/Out7</a>' incorporates:</span></td></tr>
 <tr name="81" id="81">
-<td>81</td><td></td></tr>
+<td>81</td><td><span class="ct">   *  Inport: '<a class="ct blk" blk_line="81">&lt;Root&gt;/In1</a>'</span></td></tr>
 <tr name="82" id="82">
-<td>82</td><td>  <span class="ct">/* external outputs */</span></td></tr>
+<td>82</td><td><span class="ct">   *  Inport: '<a class="ct blk" blk_line="82">&lt;Root&gt;/In2</a>'</span></td></tr>
 <tr name="83" id="83">
-<td>83</td><td>  (<span class="kw">void</span>) <a id="83c10" class="tk">memset</a>((<span class="kw">void</span> <a id="83c23" class="tk">*</a>)<a id="83c25" class="tk">&amp;</a><a id="83c26" class="tk">Calculator_embeddedCoder_Y</a>, 0,</td></tr>
+<td>83</td><td><span class="ct">   *  S-Function (sfix_bitop): '<a class="ct blk" blk_line="83">&lt;Root&gt;/Bitwise Operator1</a>'</span></td></tr>
 <tr name="84" id="84">
-<td>84</td><td>                <span class="kw">sizeof</span>(<a id="84c24" class="tk">ExtY_Calculator_embeddedCoder_T</a>));</td></tr>
+<td>84</td><td><span class="ct">   */</span></td></tr>
 <tr name="85" id="85">
-<td>85</td><td><span class="br">}</span></td></tr>
+<td>85</td><td>  <a id="85c3" class="tk">Calculator_embeddedCoder_Y</a>.<a id="85c30" class="tk">Out7</a> = (<a id="85c38" class="tk">uint8_T</a>)(<a id="85c47" class="tk">Calculator_embeddedCoder_U</a>.<a id="85c74" class="tk">In1</a> <a id="85c78" class="tk">|</a></td></tr>
 <tr name="86" id="86">
-<td>86</td><td></td></tr>
+<td>86</td><td>    <a id="86c5" class="tk">Calculator_embeddedCoder_U</a>.<a id="86c32" class="tk">In2</a>);</td></tr>
 <tr name="87" id="87">
-<td>87</td><td><span class="ct">/* Model terminate function */</span></td></tr>
+<td>87</td><td></td></tr>
 <tr name="88" id="88">
-<td>88</td><td><span class="kw">void</span> <a id="88c6" class="tk">Calculator_embeddedCoder_terminate</a>(<span class="kw">void</span>)</td></tr>
+<td>88</td><td>  <span class="ct">/* Outport: '<a class="ct blk" blk_line="88">&lt;Root&gt;/Out8</a>' incorporates:</span></td></tr>
 <tr name="89" id="89">
-<td>89</td><td><span class="br">{</span></td></tr>
+<td>89</td><td><span class="ct">   *  Inport: '<a class="ct blk" blk_line="89">&lt;Root&gt;/In1</a>'</span></td></tr>
 <tr name="90" id="90">
-<td>90</td><td>  <span class="ct">/* (no terminate code required) */</span></td></tr>
+<td>90</td><td><span class="ct">   *  Inport: '<a class="ct blk" blk_line="90">&lt;Root&gt;/In2</a>'</span></td></tr>
 <tr name="91" id="91">
-<td>91</td><td><span class="br">}</span></td></tr>
+<td>91</td><td><span class="ct">   *  S-Function (sfix_bitop): '<a class="ct blk" blk_line="91">&lt;Root&gt;/Bitwise Operator2</a>'</span></td></tr>
 <tr name="92" id="92">
-<td>92</td><td></td></tr>
+<td>92</td><td><span class="ct">   */</span></td></tr>
 <tr name="93" id="93">
-<td>93</td><td><span class="ct">/*</span></td></tr>
+<td>93</td><td>  <a id="93c3" class="tk">Calculator_embeddedCoder_Y</a>.<a id="93c30" class="tk">Out8</a> = (<a id="93c38" class="tk">uint8_T</a>)(<a id="93c47" class="tk">Calculator_embeddedCoder_U</a>.<a id="93c74" class="tk">In1</a> <a id="93c78" class="tk">^</a></td></tr>
 <tr name="94" id="94">
-<td>94</td><td><span class="ct"> * File trailer for generated code.</span></td></tr>
+<td>94</td><td>    <a id="94c5" class="tk">Calculator_embeddedCoder_U</a>.<a id="94c32" class="tk">In2</a>);</td></tr>
 <tr name="95" id="95">
-<td>95</td><td><span class="ct"> *</span></td></tr>
+<td>95</td><td></td></tr>
 <tr name="96" id="96">
-<td>96</td><td><span class="ct"> * [EOF]</span></td></tr>
+<td>96</td><td>  <span class="ct">/* Outport: '<a class="ct blk" blk_line="96">&lt;Root&gt;/Out9</a>' incorporates:</span></td></tr>
 <tr name="97" id="97">
-<td>97</td><td><span class="ct"> */</span></td></tr>
+<td>97</td><td><span class="ct">   *  Inport: '<a class="ct blk" blk_line="97">&lt;Root&gt;/In1</a>'</span></td></tr>
 <tr name="98" id="98">
-<td>98</td><td></td></tr>
+<td>98</td><td><span class="ct">   *  Inport: '<a class="ct blk" blk_line="98">&lt;Root&gt;/In2</a>'</span></td></tr>
+<tr name="99" id="99">
+<td>99</td><td><span class="ct">   *  S-Function (sfix_bitop): '<a class="ct blk" blk_line="99">&lt;Root&gt;/Bitwise Operator3</a>'</span></td></tr>
+<tr name="100" id="100">
+<td>100</td><td><span class="ct">   */</span></td></tr>
+<tr name="101" id="101">
+<td>101</td><td>  <a id="101c3" class="tk">Calculator_embeddedCoder_Y</a>.<a id="101c30" class="tk">Out9</a> = (<a id="101c38" class="tk">uint8_T</a>)<a id="101c46" class="tk">~</a>(<a id="101c48" class="tk">uint8_T</a>)</td></tr>
+<tr name="102" id="102">
+<td>102</td><td>    (<a id="102c6" class="tk">Calculator_embeddedCoder_U</a>.<a id="102c33" class="tk">In1</a> <a id="102c37" class="tk">|</a> <a id="102c39" class="tk">Calculator_embeddedCoder_U</a>.<a id="102c66" class="tk">In2</a>);</td></tr>
+<tr name="103" id="103">
+<td>103</td><td></td></tr>
+<tr name="104" id="104">
+<td>104</td><td>  <span class="ct">/* Outport: '<a class="ct blk" blk_line="104">&lt;Root&gt;/Out10</a>' incorporates:</span></td></tr>
+<tr name="105" id="105">
+<td>105</td><td><span class="ct">   *  Inport: '<a class="ct blk" blk_line="105">&lt;Root&gt;/In1</a>'</span></td></tr>
+<tr name="106" id="106">
+<td>106</td><td><span class="ct">   *  S-Function (sfix_bitop): '<a class="ct blk" blk_line="106">&lt;Root&gt;/Bitwise Operator4</a>'</span></td></tr>
+<tr name="107" id="107">
+<td>107</td><td><span class="ct">   */</span></td></tr>
+<tr name="108" id="108">
+<td>108</td><td>  <a id="108c3" class="tk">Calculator_embeddedCoder_Y</a>.<a id="108c30" class="tk">Out10</a> = (<a id="108c39" class="tk">uint8_T</a>)<a id="108c47" class="tk">~</a><a id="108c48" class="tk">Calculator_embeddedCoder_U</a>.<a id="108c75" class="tk">In1</a>;</td></tr>
+<tr name="109" id="109">
+<td>109</td><td><span class="br">}</span></td></tr>
+<tr name="110" id="110">
+<td>110</td><td></td></tr>
+<tr name="111" id="111">
+<td>111</td><td><span class="ct">/* Model initialize function */</span></td></tr>
+<tr name="112" id="112">
+<td>112</td><td><span class="kw">void</span> <a id="112c6" class="tk">Calculator_embeddedCoder_initialize</a>(<span class="kw">void</span>)</td></tr>
+<tr name="113" id="113">
+<td>113</td><td><span class="br">{</span></td></tr>
+<tr name="114" id="114">
+<td>114</td><td>  <span class="ct">/* Registration code */</span></td></tr>
+<tr name="115" id="115">
+<td>115</td><td></td></tr>
+<tr name="116" id="116">
+<td>116</td><td>  <span class="ct">/* external inputs */</span></td></tr>
+<tr name="117" id="117">
+<td>117</td><td>  (<span class="kw">void</span>) <a id="117c10" class="tk">memset</a>((<span class="kw">void</span> <a id="117c23" class="tk">*</a>)<a id="117c25" class="tk">&amp;</a><a id="117c26" class="tk">Calculator_embeddedCoder_U</a>, 0,</td></tr>
+<tr name="118" id="118">
+<td>118</td><td>                <span class="kw">sizeof</span>(<a id="118c24" class="tk">ExtU_Calculator_embeddedCoder_T</a>));</td></tr>
+<tr name="119" id="119">
+<td>119</td><td></td></tr>
+<tr name="120" id="120">
+<td>120</td><td>  <span class="ct">/* external outputs */</span></td></tr>
+<tr name="121" id="121">
+<td>121</td><td>  (<span class="kw">void</span>) <a id="121c10" class="tk">memset</a>((<span class="kw">void</span> <a id="121c23" class="tk">*</a>)<a id="121c25" class="tk">&amp;</a><a id="121c26" class="tk">Calculator_embeddedCoder_Y</a>, 0,</td></tr>
+<tr name="122" id="122">
+<td>122</td><td>                <span class="kw">sizeof</span>(<a id="122c24" class="tk">ExtY_Calculator_embeddedCoder_T</a>));</td></tr>
+<tr name="123" id="123">
+<td>123</td><td><span class="br">}</span></td></tr>
+<tr name="124" id="124">
+<td>124</td><td></td></tr>
+<tr name="125" id="125">
+<td>125</td><td><span class="ct">/* Model terminate function */</span></td></tr>
+<tr name="126" id="126">
+<td>126</td><td><span class="kw">void</span> <a id="126c6" class="tk">Calculator_embeddedCoder_terminate</a>(<span class="kw">void</span>)</td></tr>
+<tr name="127" id="127">
+<td>127</td><td><span class="br">{</span></td></tr>
+<tr name="128" id="128">
+<td>128</td><td>  <span class="ct">/* (no terminate code required) */</span></td></tr>
+<tr name="129" id="129">
+<td>129</td><td><span class="br">}</span></td></tr>
+<tr name="130" id="130">
+<td>130</td><td></td></tr>
+<tr name="131" id="131">
+<td>131</td><td><span class="ct">/*</span></td></tr>
+<tr name="132" id="132">
+<td>132</td><td><span class="ct"> * File trailer for generated code.</span></td></tr>
+<tr name="133" id="133">
+<td>133</td><td><span class="ct"> *</span></td></tr>
+<tr name="134" id="134">
+<td>134</td><td><span class="ct"> * [EOF]</span></td></tr>
+<tr name="135" id="135">
+<td>135</td><td><span class="ct"> */</span></td></tr>
+<tr name="136" id="136">
+<td>136</td><td></td></tr>
 </table>
 </pre>
 </body>

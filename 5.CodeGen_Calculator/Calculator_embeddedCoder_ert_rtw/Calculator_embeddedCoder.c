@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'Calculator_embeddedCoder'.
  *
- * Model version                  : 1.0
+ * Model version                  : 1.6
  * Simulink Coder version         : 8.10 (R2016a) 10-Feb-2016
- * C/C++ source code generated on : Sat Oct 29 00:24:02 2022
+ * C/C++ source code generated on : Sat Oct 29 22:10:10 2022
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -68,6 +68,44 @@ void Calculator_embeddedCoder_step(void)
   Calculator_embeddedCoder_Y.Out5 = (uint8_T)(Calculator_embeddedCoder_U.In2 ==
     0U ? MAX_uint32_T : (uint32_T)Calculator_embeddedCoder_U.In1 /
     Calculator_embeddedCoder_U.In2);
+
+  /* Outport: '<Root>/Out6' incorporates:
+   *  Inport: '<Root>/In1'
+   *  Inport: '<Root>/In2'
+   *  S-Function (sfix_bitop): '<Root>/Bitwise Operator'
+   */
+  Calculator_embeddedCoder_Y.Out6 = (uint8_T)(Calculator_embeddedCoder_U.In1 &
+    Calculator_embeddedCoder_U.In2);
+
+  /* Outport: '<Root>/Out7' incorporates:
+   *  Inport: '<Root>/In1'
+   *  Inport: '<Root>/In2'
+   *  S-Function (sfix_bitop): '<Root>/Bitwise Operator1'
+   */
+  Calculator_embeddedCoder_Y.Out7 = (uint8_T)(Calculator_embeddedCoder_U.In1 |
+    Calculator_embeddedCoder_U.In2);
+
+  /* Outport: '<Root>/Out8' incorporates:
+   *  Inport: '<Root>/In1'
+   *  Inport: '<Root>/In2'
+   *  S-Function (sfix_bitop): '<Root>/Bitwise Operator2'
+   */
+  Calculator_embeddedCoder_Y.Out8 = (uint8_T)(Calculator_embeddedCoder_U.In1 ^
+    Calculator_embeddedCoder_U.In2);
+
+  /* Outport: '<Root>/Out9' incorporates:
+   *  Inport: '<Root>/In1'
+   *  Inport: '<Root>/In2'
+   *  S-Function (sfix_bitop): '<Root>/Bitwise Operator3'
+   */
+  Calculator_embeddedCoder_Y.Out9 = (uint8_T)~(uint8_T)
+    (Calculator_embeddedCoder_U.In1 | Calculator_embeddedCoder_U.In2);
+
+  /* Outport: '<Root>/Out10' incorporates:
+   *  Inport: '<Root>/In1'
+   *  S-Function (sfix_bitop): '<Root>/Bitwise Operator4'
+   */
+  Calculator_embeddedCoder_Y.Out10 = (uint8_T)~Calculator_embeddedCoder_U.In1;
 }
 
 /* Model initialize function */

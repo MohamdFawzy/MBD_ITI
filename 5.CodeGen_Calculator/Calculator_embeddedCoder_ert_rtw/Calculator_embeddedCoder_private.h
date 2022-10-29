@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'Calculator_embeddedCoder'.
  *
- * Model version                  : 1.0
+ * Model version                  : 1.6
  * Simulink Coder version         : 8.10 (R2016a) 10-Feb-2016
- * C/C++ source code generated on : Sat Oct 29 00:24:02 2022
+ * C/C++ source code generated on : Sat Oct 29 22:10:10 2022
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
